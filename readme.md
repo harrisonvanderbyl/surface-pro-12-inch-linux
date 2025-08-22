@@ -2,6 +2,8 @@ Surface Pro 12Inch Gen 1. Device tree development
 
 Current status:
 
+### Warning: may have issues with charging, can brick machine if overcharged or using a cheap usb charger (not sure exactly what happened)
+
 |**Hardware** |**SP12**|
 |:---------------:|:----:|
 |Keyboard |   ✓    |
