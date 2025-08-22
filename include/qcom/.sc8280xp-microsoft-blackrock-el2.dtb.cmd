@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/sc8280xp-microsoft-blackrock-el2.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/sc8280xp-microsoft-blackrock-el2.dtb -i arch/arm64/boot/dts/qcom/sc8280xp-microsoft-blackrock.dtb arch/arm64/boot/dts/qcom/sc8280xp-el2.dtbo 

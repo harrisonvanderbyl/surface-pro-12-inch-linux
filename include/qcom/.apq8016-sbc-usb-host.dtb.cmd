@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/apq8016-sbc-usb-host.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/apq8016-sbc-usb-host.dtb -i arch/arm64/boot/dts/qcom/apq8016-sbc.dtb arch/arm64/boot/dts/qcom/apq8016-sbc-usb-host.dtbo 

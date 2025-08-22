@@ -1,1 +1,0 @@
-x1-el2.o: arch/arm64/boot/dts/qcom/x1-el2.dtso

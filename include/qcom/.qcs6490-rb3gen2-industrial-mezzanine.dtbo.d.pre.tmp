@@ -1,4 +1,0 @@
-qcs6490-rb3gen2-industrial-mezzanine.o: \
- arch/arm64/boot/dts/qcom/qcs6490-rb3gen2-industrial-mezzanine.dtso \
- scripts/dtc/include-prefixes/dt-bindings/clock/qcom,gcc-sc7280.h \
- scripts/dtc/include-prefixes/dt-bindings/pinctrl/qcom,pmic-gpio.h

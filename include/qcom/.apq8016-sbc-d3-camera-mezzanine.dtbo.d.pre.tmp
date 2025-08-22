@@ -1,4 +1,0 @@
-apq8016-sbc-d3-camera-mezzanine.o: \
- arch/arm64/boot/dts/qcom/apq8016-sbc-d3-camera-mezzanine.dtso \
- scripts/dtc/include-prefixes/dt-bindings/clock/qcom,gcc-msm8916.h \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

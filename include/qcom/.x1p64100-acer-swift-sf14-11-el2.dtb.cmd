@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/x1p64100-acer-swift-sf14-11-el2.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/x1p64100-acer-swift-sf14-11-el2.dtb -i arch/arm64/boot/dts/qcom/x1p64100-acer-swift-sf14-11.dtb arch/arm64/boot/dts/qcom/x1-el2.dtbo 

@@ -1,4 +1,0 @@
-qrb5165-rb5-vision-mezzanine.o: \
- arch/arm64/boot/dts/qcom/qrb5165-rb5-vision-mezzanine.dtso \
- scripts/dtc/include-prefixes/dt-bindings/clock/qcom,camcc-sm8250.h \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

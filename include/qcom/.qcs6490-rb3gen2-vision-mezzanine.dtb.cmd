@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/qcs6490-rb3gen2-vision-mezzanine.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/qcs6490-rb3gen2-vision-mezzanine.dtb -i arch/arm64/boot/dts/qcom/qcs6490-rb3gen2.dtb arch/arm64/boot/dts/qcom/qcs6490-rb3gen2-vision-mezzanine.dtbo 

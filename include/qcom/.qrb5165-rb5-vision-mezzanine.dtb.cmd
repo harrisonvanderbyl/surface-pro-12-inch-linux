@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/qrb5165-rb5-vision-mezzanine.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/qrb5165-rb5-vision-mezzanine.dtb -i arch/arm64/boot/dts/qcom/qrb5165-rb5.dtb arch/arm64/boot/dts/qcom/qrb5165-rb5-vision-mezzanine.dtbo 

@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/x1e80100-asus-vivobook-s15-el2.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/x1e80100-asus-vivobook-s15-el2.dtb -i arch/arm64/boot/dts/qcom/x1e80100-asus-vivobook-s15.dtb arch/arm64/boot/dts/qcom/x1-el2.dtbo 

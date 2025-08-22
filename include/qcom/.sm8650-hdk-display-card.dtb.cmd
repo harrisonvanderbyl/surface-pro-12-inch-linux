@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/sm8650-hdk-display-card.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/sm8650-hdk-display-card.dtb -i arch/arm64/boot/dts/qcom/sm8650-hdk.dtb arch/arm64/boot/dts/qcom/sm8650-hdk-display-card.dtbo 

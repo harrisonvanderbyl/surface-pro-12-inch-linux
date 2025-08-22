@@ -1,4 +1,0 @@
-sm8650-hdk-display-card.o: \
- arch/arm64/boot/dts/qcom/sm8650-hdk-display-card.dtso \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
- scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

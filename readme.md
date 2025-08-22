@@ -6,18 +6,22 @@ Current status:
 |:---------------:|:----:|
 |Keyboard |   ✓    |
 |Touchpad | ✓    | 
-|Lid     | ✓ (is registered as input, does not do anything yet)    |
+|Lid     | ✓   |
 |Touchscreen      | ✓   |
 |Backlight      | ✓   |
 |GPU      |  ✓ (mesa 25.3.0)  | 
 |Pen              | ✓   |
 |WiFi             | ✓ (run fixwifi.sh and reboot)   |
 |Bluetooth        | ✓   | 
-|Speakers         | ❌  | 
-|Buttons          | ❌ (power button only)    |
+|Speakers         | ✓ | 
 |Suspend          | ✓    |
+|UFS hard drive   | ✓   |
 |Hibernate        | ?   | 
-|Sensors          | ❌    |
 |Battery Status   | ✓   | 
+|Buttons          | ❌ (power button only)    |
 |Performance Modes| ❌   | 
 |Cameras          | ❌   | 
+
+
+## How to:
+The included files are useful, put them where they are needed

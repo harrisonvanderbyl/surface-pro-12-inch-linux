@@ -1,4 +1,0 @@
-qcs6490-rb3gen2-vision-mezzanine.o: \
- arch/arm64/boot/dts/qcom/qcs6490-rb3gen2-vision-mezzanine.dtso \
- scripts/dtc/include-prefixes/dt-bindings/clock/qcom,camcc-sc7280.h \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

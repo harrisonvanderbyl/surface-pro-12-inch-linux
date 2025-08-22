@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/x1e80100-hp-elitebook-ultra-g1q-el2.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/x1e80100-hp-elitebook-ultra-g1q-el2.dtb -i arch/arm64/boot/dts/qcom/x1e80100-hp-elitebook-ultra-g1q.dtb arch/arm64/boot/dts/qcom/x1-el2.dtbo 

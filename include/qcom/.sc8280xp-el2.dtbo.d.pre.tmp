@@ -1,1 +1,0 @@
-sc8280xp-el2.o: arch/arm64/boot/dts/qcom/sc8280xp-el2.dtso

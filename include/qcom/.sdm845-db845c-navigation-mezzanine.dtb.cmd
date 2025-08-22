@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/sdm845-db845c-navigation-mezzanine.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/sdm845-db845c-navigation-mezzanine.dtb -i arch/arm64/boot/dts/qcom/sdm845-db845c.dtb arch/arm64/boot/dts/qcom/sdm845-db845c-navigation-mezzanine.dtbo 

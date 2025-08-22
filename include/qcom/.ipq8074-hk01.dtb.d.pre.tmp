@@ -1,9 +1,0 @@
-ipq8074-hk01.o: arch/arm64/boot/dts/qcom/ipq8074-hk01.dts \
- arch/arm64/boot/dts/qcom/ipq8074.dtsi \
- scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
- scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
- scripts/dtc/include-prefixes/dt-bindings/clock/qcom,gcc-ipq8074.h \
- arch/arm64/boot/dts/qcom/pmp8074.dtsi \
- scripts/dtc/include-prefixes/dt-bindings/spmi/spmi.h \
- scripts/dtc/include-prefixes/dt-bindings/iio/qcom,spmi-vadc.h \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

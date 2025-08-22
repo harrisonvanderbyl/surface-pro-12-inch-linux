@@ -1,4 +1,0 @@
-sdm845-db845c-navigation-mezzanine.o: \
- arch/arm64/boot/dts/qcom/sdm845-db845c-navigation-mezzanine.dtso \
- scripts/dtc/include-prefixes/dt-bindings/clock/qcom,camcc-sdm845.h \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

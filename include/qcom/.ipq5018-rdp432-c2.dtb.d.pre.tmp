@@ -1,8 +1,0 @@
-ipq5018-rdp432-c2.o: arch/arm64/boot/dts/qcom/ipq5018-rdp432-c2.dts \
- arch/arm64/boot/dts/qcom/ipq5018.dtsi \
- scripts/dtc/include-prefixes/dt-bindings/clock/qcom,apss-ipq.h \
- scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
- scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
- scripts/dtc/include-prefixes/dt-bindings/clock/qcom,gcc-ipq5018.h \
- scripts/dtc/include-prefixes/dt-bindings/reset/qcom,gcc-ipq5018.h \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

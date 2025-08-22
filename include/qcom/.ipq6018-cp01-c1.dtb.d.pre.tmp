@@ -1,9 +1,0 @@
-ipq6018-cp01-c1.o: arch/arm64/boot/dts/qcom/ipq6018-cp01-c1.dts \
- arch/arm64/boot/dts/qcom/ipq6018-mp5496.dtsi \
- arch/arm64/boot/dts/qcom/ipq6018.dtsi \
- scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
- scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
- scripts/dtc/include-prefixes/dt-bindings/clock/qcom,gcc-ipq6018.h \
- scripts/dtc/include-prefixes/dt-bindings/reset/qcom,gcc-ipq6018.h \
- scripts/dtc/include-prefixes/dt-bindings/clock/qcom,apss-ipq.h \
- scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h

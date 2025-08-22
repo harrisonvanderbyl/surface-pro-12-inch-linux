@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/sc7180-acer-aspire1-el2.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/sc7180-acer-aspire1-el2.dtb -i arch/arm64/boot/dts/qcom/sc7180-acer-aspire1.dtb arch/arm64/boot/dts/qcom/sc7180-el2.dtbo 

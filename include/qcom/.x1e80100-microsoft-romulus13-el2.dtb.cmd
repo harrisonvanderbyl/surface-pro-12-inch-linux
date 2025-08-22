@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/boot/dts/qcom/x1e80100-microsoft-romulus13-el2.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/qcom/x1e80100-microsoft-romulus13-el2.dtb -i arch/arm64/boot/dts/qcom/x1e80100-microsoft-romulus13.dtb arch/arm64/boot/dts/qcom/x1-el2.dtbo 
