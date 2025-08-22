@@ -2,7 +2,7 @@ Surface Pro 12Inch Gen 1. Device tree development
 
 Current status:
 
-### Warning: may have issues with charging, can brick machine if overcharged or using a cheap usb charger (not sure exactly what happened)
+### Warning: may have issues with charging. During the development of this I bricked 2 laptops. For now I am charging purely with a phone charger and mostly charging when machine is off due to caution. May be resolved already.
 
 |**Hardware** |**SP12**|
 |:---------------:|:----:|
