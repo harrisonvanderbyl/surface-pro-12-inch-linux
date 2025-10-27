@@ -4,6 +4,8 @@ Current status:
 
 ### Warning: may have issues with charging. During the development of this I bricked 2 laptops. For now I am charging purely with a phone charger and mostly charging when machine is off due to caution. May be resolved already.
 
+To protect your battery, going into bios->boot->enable battery limit, will limit charging to 50% of max.
+
 |**Hardware** |**SP12**|
 |:---------------:|:----:|
 |Keyboard |   ✓    |
