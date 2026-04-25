@@ -1,0 +1,45 @@
+From f4aa462a76fb4122ce24f941df4f53f6b39b64d1 Mon Sep 17 00:00:00 2001
+From: harrison <harrison.vanderbyl@gmail.com>
+Date: Sun, 26 Apr 2026 16:25:55 +1000
+Subject: [PATCH 1/6] Platform/surface Add surface pro 12inch to surface
+ aggregate registery
+
+---
+ .../platform/surface/surface_aggregator_registry.c | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+diff --git a/drivers/platform/surface/surface_aggregator_registry.c b/drivers/platform/surface/surface_aggregator_registry.c
+index 0599d5adf02e..e7d2fc0015ea 100644
+--- a/drivers/platform/surface/surface_aggregator_registry.c
++++ b/drivers/platform/surface/surface_aggregator_registry.c
+@@ -422,6 +422,19 @@ static const struct software_node *ssam_node_group_sp11[] = {
+ 	NULL,
+ };
+ 
++static const struct software_node *ssam_node_group_sp12[] = {
++	&ssam_node_root,
++	&ssam_node_hub_kip,
++	&ssam_node_tmp_sensors,
++	&ssam_node_hid_kip_keyboard,
++	&ssam_node_hid_kip_penstash,
++	&ssam_node_hid_kip_touchpad,
++	&ssam_node_hid_kip_fwupd,
++	&ssam_node_hid_sam_sensors,
++	&ssam_node_kip_tablet_switch,
++	NULL,
++};
++
+ /* -- SSAM platform/meta-hub driver. ---------------------------------------- */
+ 
+ static const struct acpi_device_id ssam_platform_hub_acpi_match[] = {
+@@ -500,6 +513,7 @@ static const struct of_device_id ssam_platform_hub_of_match[] __maybe_unused = {
+ 	{ .compatible = "microsoft,arcata", (void *)ssam_node_group_sp9_5g },
+ 	/* Surface Pro 11 (ARM/QCOM) */
+ 	{ .compatible = "microsoft,denali", (void *)ssam_node_group_sp11 },
++	{ .compatible = "microsoft,sp12", (void *)ssam_node_group_sp12 },
+ 	/* Surface Laptop 7 */
+ 	{ .compatible = "microsoft,romulus13", (void *)ssam_node_group_sl7 },
+ 	{ .compatible = "microsoft,romulus15", (void *)ssam_node_group_sl7 },
+-- 
+2.53.0
+

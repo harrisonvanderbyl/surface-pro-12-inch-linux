@@ -1,0 +1,24 @@
+From b44b9bb2d5ad020724cc870a582ae249f484a67e Mon Sep 17 00:00:00 2001
+From: harrison <harrison.vanderbyl@gmail.com>
+Date: Sun, 26 Apr 2026 16:27:05 +1000
+Subject: [PATCH 2/6] drm/panel-edp Add surface pro 12inch panel NE120DRM-N28
+
+---
+ drivers/gpu/drm/panel/panel-edp.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/drivers/gpu/drm/panel/panel-edp.c b/drivers/gpu/drm/panel/panel-edp.c
+index 497dcd48f57b..b346ce8493ca 100644
+--- a/drivers/gpu/drm/panel/panel-edp.c
++++ b/drivers/gpu/drm/panel/panel-edp.c
+@@ -1992,6 +1992,7 @@ static const struct edp_panel_entry edp_panels[] = {
+ 	EDP_PANEL_ENTRY('B', 'O', 'E', 0x0849, &delay_200_500_e200, "Unknown"),
+ 	EDP_PANEL_ENTRY('B', 'O', 'E', 0x09c3, &delay_200_500_e50, "NT116WHM-N21,836X2"),
+ 	EDP_PANEL_ENTRY('B', 'O', 'E', 0x094b, &delay_200_500_e50, "NT116WHM-N21"),
++	EDP_PANEL_ENTRY('B', 'O', 'E', 0x0cc9, &delay_200_500_e80, "NE120DRM-N28"),
+ 	EDP_PANEL_ENTRY('B', 'O', 'E', 0x0951, &delay_200_500_e80, "NV116WHM-N47"),
+ 	EDP_PANEL_ENTRY('B', 'O', 'E', 0x095f, &delay_200_500_e50, "NE135FBM-N41 v8.1"),
+ 	EDP_PANEL_ENTRY('B', 'O', 'E', 0x0964, &delay_200_500_e50, "NV133WUM-N61"),
+-- 
+2.53.0
+

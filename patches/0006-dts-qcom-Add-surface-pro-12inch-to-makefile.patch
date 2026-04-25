@@ -1,0 +1,22 @@
+From b273ae69703bc7ea5527839700ab999185ee8a5c Mon Sep 17 00:00:00 2001
+From: harrison <harrison.vanderbyl@gmail.com>
+Date: Sun, 26 Apr 2026 16:34:02 +1000
+Subject: [PATCH 6/6] dts: qcom Add surface pro 12inch to makefile
+
+---
+ arch/arm64/boot/dts/qcom/Makefile | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/arch/arm64/boot/dts/qcom/Makefile b/arch/arm64/boot/dts/qcom/Makefile
+index a117e8b9bc20..334fcb89d6bc 100644
+--- a/arch/arm64/boot/dts/qcom/Makefile
++++ b/arch/arm64/boot/dts/qcom/Makefile
+@@ -450,3 +450,5 @@ x1p42100-lenovo-thinkbook-16-el2-dtbs	:= x1p42100-lenovo-thinkbook-16.dtb x1-el2
+ dtb-$(CONFIG_ARCH_QCOM)	+= x1p42100-lenovo-thinkbook-16.dtb x1p42100-lenovo-thinkbook-16-el2.dtb
+ x1p64100-microsoft-denali-el2-dtbs	:= x1p64100-microsoft-denali.dtb x1-el2.dtbo
+ dtb-$(CONFIG_ARCH_QCOM)	+= x1p64100-microsoft-denali.dtb x1p64100-microsoft-denali-el2.dtb
++x1p42100-microsoft-sp12-el2-dtbs	:= x1p42100-microsoft-sp12.dtb x1-el2.dtbo
++dtb-$(CONFIG_ARCH_QCOM)	+= x1p42100-microsoft-sp12.dtb x1p42100-microsoft-sp12-el2.dtb
+-- 
+2.53.0
+
