@@ -26,15 +26,7 @@ Current status:
 
 
 ## How to:
-0) un-encrypt your disk by removing windows bitlocker
-1) create a liveusb from the latest arm64 ubuntu version
-2) copy the non el2 dtb from /boot/ into your new liveusb somewhere where grub can see it
-3) when starting the installer, press E to edit the startup script
-4) add `devicetree path/to/dtb` to the grub script
-5) press control X to boot the liveusb
-6) install ubuntu onto device
-7) copy the files from this repository into the new partition, following the paths of the files
-8) not sure from here, but fix grub config to point to the new kernels and devicetree
+TODO
 
 ## Patches
 The patches folder includes patches to apply on top of linux repo
