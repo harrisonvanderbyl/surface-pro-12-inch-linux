@@ -29,7 +29,7 @@ Current status:
 TODO
 
 ## Patches
-The patches folder includes patches to apply on top of linux repo
+check my linux repo for active branches for latest stuff as I try to upstream
 
 ## Updates (April 26)
 Havent had any recent issues with charging, do turn on charging limit in bios anyway.
