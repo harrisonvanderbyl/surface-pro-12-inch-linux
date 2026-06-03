@@ -1,0 +1,1 @@
+{"sns_tppe_ble":{"owner":"sns_tppe","type":{"type":"str","ver":"0","data":"ble_ext"},"api":{"type":"str","ver":"0","data":"qsh_ble_ext.proto"},"filter_msg_ids":{"type":"grp","ver":"0","data":""},"batch_period_us":{"type":"int","ver":"0","data":"1000000"}}}

@@ -1,0 +1,9 @@
+{
+  "config":{},
+  "sns_cm":{
+    "owner": "sns_cm",
+    "enable_mdsp_clients":{ "type": "int", "ver": "0",
+          "data": "0"
+    }
+  }
+}

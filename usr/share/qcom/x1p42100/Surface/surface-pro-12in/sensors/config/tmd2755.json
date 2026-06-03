@@ -1,0 +1,45 @@
+{
+  "config":
+  {
+    "hw_platform": ["IDP", "CRD"],
+    "soc_id": ["555", "635", "615", "616"]
+  },
+    "tmd2755_0":{
+    "owner": "sns_tmd2755",
+    ".als":{
+      "owner": "sns_tmd2755",
+      ".config":{
+        "owner": "sns_tmd2755",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".prox":{
+      "owner": "sns_tmd2755",
+      ".config":{
+        "owner": "sns_tmd2755",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+}

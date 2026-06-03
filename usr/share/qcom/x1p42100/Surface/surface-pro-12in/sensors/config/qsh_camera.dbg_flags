@@ -1,0 +1,1 @@
+{"qsh_camera.dbg_flags":{"owner":"NA","main_sensor.enable":{"type":"int","ver":"0","data":"1"},"main_sensor.disable_after_n_runs":{"type":"int","ver":"0","data":"0"},"test_sensor.enable":{"type":"int","ver":"0","data":"1"},"test_sensor.disable_after_n_runs":{"type":"int","ver":"0","data":"0"}}}

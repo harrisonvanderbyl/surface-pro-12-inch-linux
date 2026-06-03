@@ -1,0 +1,1 @@
+{"qsh_camera_ov08x_2.power_save_params":{"owner":"qsh_camera_ov08x_2","enable":{"type":"int","ver":"0","data":"0"},"event_id_suspend":{"type":"int","ver":"0","data":"832"},"event_id_resume":{"type":"int","ver":"0","data":"833"},"sensor_type":{"type":"str","ver":"0","data":"aoc_power_save"}}}

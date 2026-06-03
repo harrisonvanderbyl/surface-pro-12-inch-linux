@@ -1,0 +1,1 @@
+{"sns_dynamic_libraries.dyn_lib_1":{"owner":"dynamic_sensor","name":{"type":"str","ver":"0","data":"sns_tppe.so"},"reg_fun":{"type":"str","ver":"0","data":"sns_tppe_register"},"reg_cnt":{"type":"int","ver":"0","data":"1"}}}

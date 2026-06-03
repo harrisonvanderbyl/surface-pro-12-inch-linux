@@ -1,0 +1,9 @@
+{
+	"config":{"hw_platform": ["CRD"],"soc_id": ["555", "615", "635"]},
+    "surface_configuration": {
+      "owner": "sns_surface",
+      "mfg_mode_calibration_path": {
+        "ver": "0", "type": "str", "data": "/vendor/etc/sensors/config/dev_runtime_mod.bin"
+      }
+    }
+  }

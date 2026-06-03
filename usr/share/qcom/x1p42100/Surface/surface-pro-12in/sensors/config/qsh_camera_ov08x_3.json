@@ -1,0 +1,265 @@
+{
+  "config": {
+    "hw_platform": ["IDP"],
+    "soc_id": ["635"]
+  },
+  "qsh_camera_ov08x_3":{
+    "owner": "qsh_camera_ov08x_3",
+    ".bus_info":{
+      "owner": "qsh_camera_ov08x_3",
+      ".primary":{
+        "owner": "qsh_camera_ov08x_3",
+        "bus_type":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "bus_instance":{ "type": "int", "ver": "0",
+          "data": "9"
+        },
+        "slave_config":{ "type": "int", "ver": "0",
+          "data": "54"
+        },
+        "min_bus_speed_khz":{ "type": "int", "ver": "0",
+          "data": "400"
+        },
+        "max_bus_speed_khz":{ "type": "int", "ver": "0",
+          "data": "400"
+        },
+        "reg_addr_type":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "burst_support":{ "type": "int", "ver": "0",
+          "data": "1"
+        }
+      },
+      ".secondary":{
+        "owner": "qsh_camera_ov08x_3",
+        "bus_type":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "bus_instance":{ "type": "int", "ver": "0",
+          "data": "9"
+        },
+        "slave_config":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "min_bus_speed_khz":{ "type": "int", "ver": "0",
+          "data": "400"
+        },
+        "max_bus_speed_khz":{ "type": "int", "ver": "0",
+          "data": "400"
+        },
+        "reg_addr_type":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "burst_support":{ "type": "int", "ver": "0",
+          "data": "1"
+        }
+      }
+    },
+    ".sensor_pwr_rail_info":{
+      "owner": "qsh_camera_ov08x_3",
+      ".vana": {
+        "owner": "qsh_camera_ov08x_3",
+        "resource_str": {"type": "str", "ver": "0",
+          "data": "/pmic/client/aoc_avdd"
+        },
+        "ldo_pin_value_to_pwr_on": {"type": "int", "ver": "0",
+          "data": "1"
+        },
+        ".ldo_pin":{
+          "owner": "qsh_camera_ov08x_3",
+          "pin_num": {"type": "int", "ver": "0",
+            "data": "-1"
+          },
+          "is_chip_pin": {"type": "int", "ver": "0",
+            "data": "0"
+          },
+          "drive_strength": {"type": "int", "ver": "0",
+            "data": "0"
+          },
+          "pull_type": {"type": "int", "ver": "0",
+            "data": "3"
+          },
+          "irq_trigger_type": {"type": "int", "ver": "0",
+            "data": "0"
+          }
+        }
+      },
+      ".vio": {
+        "owner": "qsh_camera_ov08x_3",
+        "resource_str": {"type": "str", "ver": "0",
+          "data": "/pmic/client/aoc_dovdd_crd"
+        },
+        "ldo_pin_value_to_pwr_on": {"type": "int", "ver": "0",
+          "data": "-1"
+        },
+        ".ldo_pin":{
+          "owner": "qsh_camera_ov08x_3",
+          "pin_num": {"type": "int", "ver": "0",
+            "data": "-1"
+          },
+          "is_chip_pin": {"type": "int", "ver": "0",
+            "data": "0"
+          },
+          "drive_strength": {"type": "int", "ver": "0",
+            "data": "0"
+          },
+          "pull_type": {"type": "int", "ver": "0",
+            "data": "3"
+          },
+          "irq_trigger_type": {"type": "int", "ver": "0",
+            "data": "0"
+          }
+        }
+      }
+    },
+    ".power_save_params": {
+      "owner": "qsh_camera_ov08x_3",
+      "enable": {"type": "int", "ver": "0",
+        "data": "0"
+      },
+      "event_id_suspend": {"type": "int", "ver": "0",
+        "data": "832"
+      },
+      "event_id_resume": {"type": "int", "ver": "0",
+        "data": "833"
+      },
+      "sensor_type": {"type": "str", "ver": "0",
+        "data": "aoc_power_save"
+      }
+    },
+    ".gpio_info": {
+      "owner": "qsh_camera_ov08x_3",
+      ".aux_pin": {
+        "owner": "qsh_camera_ov08x_3",
+        "pin_num": {"type": "int", "ver": "0",
+          "data": "-1"
+        },
+        "is_chip_pin": {"type": "int", "ver": "0",
+          "data": "0"
+        },
+        "drive_strength": {"type": "int", "ver": "0",
+          "data": "0"
+        },
+        "pull_type": {"type": "int", "ver": "0",
+          "data": "3"
+        },
+        "irq_trigger_type": {"type": "int", "ver": "0",
+          "data": "0"
+        }
+      },
+      ".reset_pin": {
+        "owner": "qsh_camera_ov08x_3",
+        "pin_num": {"type": "int", "ver": "0",
+          "data": "22"
+        },
+        "is_chip_pin": {"type": "int", "ver": "0",
+          "data": "0"
+        },
+        "drive_strength": {"type": "int", "ver": "0",
+          "data": "0"
+        },
+        "pull_type": {"type": "int", "ver": "0",
+          "data": "3"
+        },
+        "irq_trigger_type": {"type": "int", "ver": "0",
+          "data": "0"
+        }
+      },
+      ".dri_pin": {
+        "owner": "qsh_camera_ov08x_3",
+        "pin_num": {"type": "int", "ver": "0",
+          "data": "113"
+        },
+        "is_chip_pin": {"type": "int", "ver": "0",
+          "data": "1"
+        },
+        "drive_strength": {"type": "int", "ver": "0",
+          "data": "0"
+        },
+        "pull_type": {"type": "int", "ver": "0",
+          "data": "0"
+        },
+        "irq_trigger_type": {"type": "int", "ver": "0",
+          "data": "0"
+        }
+      },
+      ".toggle_mclk_pin": {
+        "owner": "qsh_camera_ov08x_3",
+        "pin_num": {"type": "int", "ver": "0",
+          "data": "-1"
+        },
+        "is_chip_pin": {"type": "int", "ver": "0",
+          "data": "1"
+        },
+        "drive_strength": {"type": "int", "ver": "0",
+          "data": "0"
+        },
+        "pull_type": {"type": "int", "ver": "0",
+          "data": "0"
+        },
+        "irq_trigger_type": {"type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".als_params":{
+      "owner": "qsh_camera_ov08x_3",
+      "als_enable":{"type": "int", "ver": "0",
+        "data": "1"
+      },
+      "als_reg_cnt":{"type": "int", "ver": "0",
+        "data": "3"
+      },
+      "als_reg_base":{"type": "int", "ver": "0",
+        "data": "7467"
+      },
+      "als_reg_hold":{"type": "int", "ver": "0",
+        "data": "0"
+      },
+      
+      "min_als_settle_time_ms":{"type": "int", "ver": "0",
+        "data": "66"
+      }
+    },
+    ".aux_pin_params":{
+      "owner": "qsh_camera_ov08x_3",
+      ".motion_detect": {
+        "owner": "qsh_camera_ov08x_3",
+        "value": {"type": "int", "ver": "0",
+          "data": "0"
+        },
+        "delay_ms": {"type": "int", "ver": "0",
+          "data": "1"
+        }
+      },
+      ".ulp_streaming": {
+        "owner": "qsh_camera_ov08x_3",
+        "value": {"type": "int", "ver": "0",
+          "data": "0"
+        },
+        "delay_ms": {"type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".misc_params":{
+      "owner": "qsh_camera_ov08x_3",
+      "csid_fit_scheme":{"type": "int", "ver": "0",
+        "data": "1"
+      },
+      "use_tpg":{"type": "int", "ver": "0",
+        "data": "0"
+      }
+    },
+    ".md_poll_params":{
+      "owner": "qsh_camera_ov08x_3",
+      "md_poll_freq_ms":{"type": "int", "ver": "0",
+        "data": "0"
+      },
+      "md_detection_reg":{"type": "int", "ver": "0",
+        "data": "12886"
+      }
+    }
+  }
+}

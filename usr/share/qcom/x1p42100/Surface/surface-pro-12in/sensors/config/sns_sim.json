@@ -1,0 +1,7 @@
+{
+  "config":
+  {
+    "hw_platform": ["IDP", "CRD"],
+    "soc_id": ["100"]
+  }
+}

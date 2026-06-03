@@ -1,0 +1,1 @@
+{"qsh_camera_ov08x_2.gpio_info.dri_pin":{"owner":"qsh_camera_ov08x_2","pin_num":{"type":"int","ver":"0","data":"113"},"is_chip_pin":{"type":"int","ver":"0","data":"1"},"drive_strength":{"type":"int","ver":"0","data":"0"},"pull_type":{"type":"int","ver":"0","data":"0"},"irq_trigger_type":{"type":"int","ver":"0","data":"0"}}}

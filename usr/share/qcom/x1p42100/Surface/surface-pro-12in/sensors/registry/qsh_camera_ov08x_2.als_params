@@ -1,0 +1,1 @@
+{"qsh_camera_ov08x_2.als_params":{"owner":"qsh_camera_ov08x_2","als_enable":{"type":"int","ver":"0","data":"1"},"als_reg_cnt":{"type":"int","ver":"0","data":"3"},"als_reg_base":{"type":"int","ver":"0","data":"7467"},"als_reg_hold":{"type":"int","ver":"0","data":"0"},"min_als_settle_time_ms":{"type":"int","ver":"0","data":"66"}}}

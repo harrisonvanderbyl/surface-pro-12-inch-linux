@@ -1,0 +1,113 @@
+{
+  "config": {
+    "hw_platform": ["IDP", "CRD"],
+    "soc_id": ["555", "635", "615", "616"]
+  },
+  "qsh_camera":{
+    "owner": "qsh_camera",
+    ".tuning_params":{
+      "owner": "qsh_camera",
+      "fd_threshold":{"type": "int", "ver": "0",
+        "data": "344"
+      },
+      "fd_false_positive_threshold_sq":{"type": "int", "ver": "0",
+        "data": "0"
+      },
+      "max_stg2_entries_per_unit_time":{"type": "int", "ver": "0",
+        "data": "0"
+      },
+      "rate_limit_unit_time_in_secs":{"type": "int", "ver": "0",
+        "data": "1"
+      },
+      ".nms_fd_qqvga":{
+        "owner": "qsh_camera",
+        "confidence_threshold": {"type": "int", "ver": "0",
+          "data": "23"
+        },
+        "iou_threshold": {"type": "int", "ver": "0",
+          "data": "77"
+        },
+        "max_num_output_faces": {"type": "int", "ver": "0",
+          "data": "3"
+        },
+        "max_proposals": {"type": "int", "ver": "0",
+          "data": "50"
+        },
+        "border_margin": {"type": "int", "ver": "0",
+          "data": "3"
+        },
+        "landmarks_fs_fraction": {"type": "int", "ver": "0",
+          "data": "15"
+        }
+      },
+      ".nms_fd_qvga":{
+        "owner": "qsh_camera",
+        "confidence_threshold": {"type": "int", "ver": "0",
+          "data": "20"
+        },
+        "iou_threshold": {"type": "int", "ver": "0",
+          "data": "77"
+        },
+        "max_num_output_faces": {"type": "int", "ver": "0",
+          "data": "3"
+        },
+        "max_proposals": {"type": "int", "ver": "0",
+          "data": "50"
+        },
+        "border_margin": {"type": "int", "ver": "0",
+          "data": "3"
+        },
+        "landmarks_fs_fraction": {"type": "int", "ver": "0",
+          "data": "15"
+        }
+      },
+      ".nms_fd_360p":{
+        "owner": "qsh_camera",
+        "confidence_threshold": {"type": "int", "ver": "0",
+          "data": "51"
+        },
+        "iou_threshold": {"type": "int", "ver": "0",
+          "data": "77"
+        },
+        "max_num_output_faces": {"type": "int", "ver": "0",
+          "data": "3"
+        },
+        "max_proposals": {"type": "int", "ver": "0",
+          "data": "50"
+        },
+        "border_margin": {"type": "int", "ver": "0",
+          "data": "3"
+        },
+        "landmarks_fs_fraction": {"type": "int", "ver": "0",
+          "data": "15"
+        }
+      },
+      ".nms_qrcode":{
+        "owner": "qsh_camera",
+        "confidence_threshold":{"type": "int", "ver": "0",
+          "data": "31"
+        }
+      }
+    },
+
+    ".nms_params_eod":{
+      "owner": "qsh_camera",
+      "conf_thresh_eod":{"type": "int", "ver": "0",
+        "data": "40"
+      },
+      "conf_thresh_eoc":{"type": "int", "ver": "0",
+        "data": "50"
+      }
+    },
+
+    ".chip_info_override":{
+      "owner": "qsh_camera",
+      "isp_max_supported_input_width":{"type": "int", "ver": "0",
+        "data": "1920"
+      },
+      "isp_max_supported_input_height":{"type": "int", "ver": "0",
+        "data": "1080"
+      }
+    }
+  }
+}
