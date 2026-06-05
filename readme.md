@@ -26,10 +26,25 @@ Current status:
 
 
 ## How to:
-TODO
+Using the latest linux-next kernel, copy ./boot/dtb to /boot/dtb and edit your grub to add devicetree /boot/dtb
+audio and sensor install scripts can be run after installation.
+recursively copy the files in ./lib/ to /lib/
 
 ## Patches
-check my linux repo for active branches for latest stuff as I try to upstream
+All needed changes beside the dts file are in latest linux-next
+
+## Updates (June 5)
+All driver, pen, keyboard fixes have made it into latest linux-next
+If using that kernel, can just the included device tree above.
+
+I have also added a script here called "installsensors.sh" that copies my current sensor setup, that turns on auto-rotate and auto-brightness.
+This also enables compass, if anything actually uses it.
+
+The installaudio.sh script will install the needed audio firmware for your device.
+
+Note: if you have problems with audio, and `sudo dmesg` says bus clsh, open alsa-mixer and mute SpkrLeft CPS and SpkrRight CPS, then reboot.
+
+The code for Cameras is working and scattered around, the patches needed are still in flux so once people stop arguing over email I will make sure that the dtb gets ubdated to support those.
 
 ## Updates (April 26)
 Havent had any recent issues with charging, do turn on charging limit in bios anyway.
