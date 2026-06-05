@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+sudo apt install libudev-dev
+
 sudo cp -r ./usr/* /usr/
 
 # Build and install hexagonrpc
