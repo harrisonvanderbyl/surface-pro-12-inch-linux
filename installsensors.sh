@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-sudo apt install libudev-dev
+sudo apt install libudev-dev libgudev-1.0-dev systemd-dev libpolkit-gobject-1-dev libgtk-3-dev
 
 sudo cp -r ./usr/* /usr/
 
