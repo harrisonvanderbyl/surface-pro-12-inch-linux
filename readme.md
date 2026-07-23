@@ -33,6 +33,11 @@ recursively copy the files in ./lib/ to /lib/
 ## Patches
 All needed changes beside the dts file are in latest linux-next
 
+## Updates (July 23)
+All driver, pen, keyboard fixes are in linux 7.2-rc1, the dts itself is making its way through as well, and may make it to either 7.2 or 7.3
+Cameras are not in yet, as it requires some patches that are still in progress.
+You should be able to use this repository with linux 7.2
+
 ## Updates (June 5)
 All driver, pen, keyboard fixes have made it into latest linux-next
 If using that kernel, can just the included device tree above.
