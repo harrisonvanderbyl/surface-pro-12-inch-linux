@@ -25,6 +25,9 @@ Current status:
 |Cameras          |  ✓   | 
 
 
+## EXTRA PATCHES AND UPGRADES CAN BE FOUND HERE, ESPECIALLY CAMERA AND HDMI AUDIO AND SUSPEND STUFF
+https://github.com/miasvanklei/Gentoo-overlay/tree/master/sys-kernel/vanilla-kernel/files/surface
+
 ## How to:
 Using the latest linux-next kernel, copy ./boot/dtb to /boot/dtb and edit your grub to add devicetree /boot/dtb
 audio and sensor install scripts can be run after installation.
